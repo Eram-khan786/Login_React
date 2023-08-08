@@ -1,0 +1,26 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  -webkit-font-smoothing:antialiased;
+}
+:root{ 
+  --primary-color:rgb(108, 9, 125);
+  --secondary-color:rgb(145, 6, 106);
+  --tertiary-color: #f8f8ff;
+}
+body{
+  height:100vh;
+  width:100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--tertiary-color);
+}
+input,button{
+  border:none;
+  outline: none;
+  font-size: 1rem;
+  background: transparent;
+}
